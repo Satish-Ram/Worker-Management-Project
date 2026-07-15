@@ -1,3 +1,2 @@
-2026/07/04-14:54:20.871 3f18 Reusing MANIFEST F:\Worker-Management-System\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
-2026/07/04-14:54:20.908 3f18 Recovering log #3
-2026/07/04-14:54:20.915 3f18 Reusing old log F:\Worker-Management-System\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+2026/07/15-23:39:30.417 342c Creating DB F:\Worker Management Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage since it was missing.
+2026/07/15-23:39:31.916 342c Reusing MANIFEST F:\Worker Management Project\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001

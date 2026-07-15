@@ -1,0 +1,22 @@
+<div class="container mt-4">
+    <h2>Workers list</h2>
+    <button class="btn btn-primary" routerLink="/add-worker">
+        Add Worker
+    </button>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Mobile</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let worker of workers">
+                <td>{{worker.workerId}}</td>
+                <td>{{worker.workerName}}</td>
+                <td>{{worker.mobile}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
