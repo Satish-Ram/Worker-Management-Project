@@ -9,7 +9,7 @@ export class Worker {
     constructor(private http:HttpClient){}
     
     getAllWorkers(){
-        return this.http.get(this.apiUrl);
+        return this.http.get<any[]>(this.apiUrl);
     }
     addWorker(worker:any){
         return this.http.post(this.apiUrl,worker);

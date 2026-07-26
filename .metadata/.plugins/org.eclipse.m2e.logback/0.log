@@ -48,3 +48,11 @@
 2026-07-16 00:09:27,253 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2026-07-16 00:09:32,795 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-07-16 00:09:32,800 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\Worker Management Project\WorkerManagementSystem\src\test\resources
+2026-07-19 12:44:53,102 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-07-26 13:20:51,690 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-07-26 13:21:44,853 [Worker-1: Launching WorkerManagementSystem - WorkerManagementSystemApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-07-26 13:21:44,976 [Worker-1: Launching WorkerManagementSystem - WorkerManagementSystemApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-07-26 13:21:44,989 [Worker-1: Launching WorkerManagementSystem - WorkerManagementSystemApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\Worker Management Project\WorkerManagementSystem\src\test\resources
+2026-07-26 13:23:25,378 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-07-26 13:23:25,410 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-07-26 13:23:25,419 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory F:\Worker Management Project\WorkerManagementSystem\src\test\resources

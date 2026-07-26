@@ -3,12 +3,15 @@
     <button class="btn btn-primary" routerLink="/add-worker">
         Add Worker
     </button>
-    <table class="table table-bordered">
-        <thead>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
             <tr>
                 <th>Id</th>
                 <th>Name</th>
                 <th>Mobile</th>
+                <th>Address</th>
+                <th>DailyWage</th>
+                <th>Site-Name</th>
             </tr>
         </thead>
         <tbody>
@@ -16,6 +19,9 @@
                 <td>{{worker.workerId}}</td>
                 <td>{{worker.workerName}}</td>
                 <td>{{worker.mobile}}</td>
+                <td>{{worker.address}}</td>
+                <td>{{worker.dailyWage}}</td>
+                <td>{{worker.siteName}}</td>
             </tr>
         </tbody>
     </table>
