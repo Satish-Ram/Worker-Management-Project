@@ -1,5 +1,6 @@
 <div class="container mt-4">
     <h2>Workers list</h2>
+    <button class="btn btn-primary me-2" routerLink="/dashboard">Back</button>
     <button class="btn btn-primary" routerLink="/add-worker">
         Add Worker
     </button>
@@ -12,6 +13,7 @@
                 <th>Address</th>
                 <th>DailyWage</th>
                 <th>Site-Name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -22,6 +24,10 @@
                 <td>{{worker.address}}</td>
                 <td>{{worker.dailyWage}}</td>
                 <td>{{worker.siteName}}</td>
+                <td>
+                    <button class="btn btn-warning btn-sm me-2" [routerLink]="['/edit-worker',worker.workerId]">Edit</button>
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                </td>
             </tr>
         </tbody>
     </table>

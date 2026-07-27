@@ -3,6 +3,7 @@ import { Login } from './components/login/login';
 import { Dashboard } from './components/dashboard/dashboard';
 import { WorkerList } from './components/worker-list/worker-list';
 import { AddWorker } from './components/add-worker/add-worker';
+import { EditWorker } from './components/edit-worker/edit-worker';
 
 export const routes: Routes = [
     {
@@ -20,6 +21,10 @@ export const routes: Routes = [
     {
         path:'add-worker',
         component:AddWorker
+    },
+    {
+        path:'edit-worker/:id',
+        component:EditWorker
     },
     {
         path:'',
