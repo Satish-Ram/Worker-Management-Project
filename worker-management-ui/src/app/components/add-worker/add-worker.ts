@@ -8,7 +8,7 @@ import { response } from 'express';
 @Component({
   selector: 'app-add-worker',
   standalone:true,
-  imports: [CommonModule, FormsModule, RouterLink],
+  imports: [CommonModule, FormsModule],
   templateUrl: './add-worker.html',
   styleUrl: './add-worker.css',
 })

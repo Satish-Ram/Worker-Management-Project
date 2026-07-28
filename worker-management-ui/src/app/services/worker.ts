@@ -14,4 +14,10 @@ export class Worker {
     addWorker(worker:any){
         return this.http.post(this.apiUrl,worker);
     }
+    getWorkerById(id:number){
+        return this.http.get(`${this.apiUrl}/${id}`);
+    }
+    updateWorker(id:number,worker:any){
+        return this.http.put(`${this.apiUrl}/${id}`,worker)
+    }
 }
